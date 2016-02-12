@@ -11,7 +11,7 @@ void plot(int x, int y){
 int lines(){
   int x, y, A, B, D
   /*octant ichi
-  (x0,y0)-->(x1,y1)
+
   */
   x=x0 y=y0
     A = y1-y0 B = -(x1-x0)
