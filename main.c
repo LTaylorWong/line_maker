@@ -22,8 +22,8 @@ int main() {
   int m = 1;
   while (m<500){
   draw_line( m+10, 0, XRES, m, s, c);
-//draw_line(m*3,0,XRES,0,s,c);
-m += 15;
+  draw_line(m*3,0,XRES,m,s,c);
+  m += 25;
   }
  
  
