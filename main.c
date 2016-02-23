@@ -26,12 +26,11 @@ int main() {
   m +=15;
   }
  
- int m1 = 50;
- //int j = 1;
-  while (m<500){
-  draw_line( 0, 0, YRES, m1, s, c);
-  m1 +=15;
-  }
+ int j = 1;
+while (j<500){
+draw_line(j, 0, YRES, YRES,s,c);
+j+=20;
+}
   
   //display(s);
   save_extension(s, "lines.png");
