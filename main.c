@@ -23,7 +23,7 @@ int main() {
   while (m<500){
   draw_line( m+10, 0, XRES, m, s, c);
   draw_line(m*3,0,XRES,m,s,c);
-  m += 25;
+  m+=5;
   }
  
  
