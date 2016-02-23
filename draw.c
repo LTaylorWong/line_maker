@@ -23,7 +23,7 @@ if(x0>x1){
    B = 0 - ( x1 - x0);
    d = 2A + B;
    while(y <= y1){
-     plot(s,cx,y);
+     plot(s,c,x,y);
      if(d < 0){
        x++;
        d += 2A;
