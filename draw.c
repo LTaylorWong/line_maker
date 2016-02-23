@@ -32,7 +32,6 @@ if(x0>x1){
      d += (2*B);
        }
  }
-}
  else if ( !dx || dy <= -1 * dx) {
    x = x0; y = y0;
    A = y1 - y0;
