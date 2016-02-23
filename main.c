@@ -22,18 +22,10 @@ int main() {
   int m = 1;
   //int j = 1;
   while (m<500){
-  draw_line( 0, 0, XRES, m, s, c);
+  draw_line( m+3, 0, XRES, m, s, c);
   m += 15;
   }
  
-c.red = 20;
-c.green = 100;
-c.blue = 0;
- int j = 1;
-while (j<500){
-draw_line(0, 0, j, YRES,s,c);
-j+=20;
-}
   
   //display(s);
   save_extension(s, "lines.png");
