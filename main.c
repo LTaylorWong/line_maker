@@ -24,9 +24,9 @@ int main() {
   while (m<500){
   draw_line( 0, 0, XRES, m, s, c);
   m += 5;
-c.red++;
+c.red += 10;
 c.green++;
-c.blue++;
+c.blue += 50;
   }
  
  int j = 1;
