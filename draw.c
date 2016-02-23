@@ -21,7 +21,7 @@ if(x0>x1){
  if((!dx && dy >= 0 )|| dy >= dx){
    A = y1 - y0; 
    B = 0 - ( x1 - x0);
-   d = 2A + B;
+   d = (2*A) + B;
    while(y <= y1){
      plot(s,c,x,y);
      if(d < 0){
