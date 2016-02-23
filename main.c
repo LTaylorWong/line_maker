@@ -23,11 +23,19 @@ int main() {
   //int j = 1;
   while (m<500){
   draw_line( m+3, 0, XRES, m, s, c);
-draw_line(0,m+3,YRES,m,s,c);
 m += 15;
   }
  
-  
+  c.red = 100;
+c.green = 100;
+c.blue = 250;
+
+int j = 0;
+while (j<100){
+draw_line(j*m,0,XRES, j, s,c);
+j+= 20;
+}
+ 
   //display(s);
   save_extension(s, "lines.png");
 }  
