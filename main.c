@@ -22,7 +22,7 @@ int main() {
   int m = 1;
   int j = 1;
   while (m<500){
-  draw_line( 0, 0, j, m, s, c);
+  draw_line( 0, 0, XRES, m, s, c);
   m +=15;
   }
  
