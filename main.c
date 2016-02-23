@@ -23,12 +23,15 @@ int main() {
   //int j = 1;
   while (m<500){
   draw_line( 0, 0, XRES, m, s, c);
-  m +=15;
+  m += 5;
+c.red++;
+c.green++;
+c.blue++;
   }
  
  int j = 1;
 while (j<500){
-draw_line(j, 0, YRES, YRES,s,c);
+draw_line(j, 0, XRES, YRES,s,c);
 j+=20;
 }
   
